@@ -4,7 +4,7 @@ package com.example.AITask;
 
 public class Device {
     private Long id;
-    private int batteryPower;
+    private int battery_power;
     private int blue;
     private float clockSpeed;
     private int dualSim;
@@ -15,8 +15,8 @@ public class Device {
     private int mobileWt;
     private int nCores;
     private int pc;
-    private int pxHeight;
-    private int pxWidth;
+    private int px_height;
+    private int px_width;
     private int ram;
     private int scH;
     private int scW;
@@ -28,9 +28,9 @@ public class Device {
 
     public Device() {
     }
-    public Device(Long id, int batteryPower, int blue, float clockSpeed, int dualSim, int fc, int fourG, int intMemory, float mDep, int mobileWt, int nCores, int pc, int pxHeight, int pxWidth, int ram, int scH, int scW, int talkTime, int threeG, int touchScreen, int wifi, int priceRange) {
+    public Device(Long id, int battery_power, int blue, float clockSpeed, int dualSim, int fc, int fourG, int intMemory, float mDep, int mobileWt, int nCores, int pc, int px_height, int px_width, int ram, int scH, int scW, int talkTime, int threeG, int touchScreen, int wifi, int priceRange) {
         this.id = id;
-        this.batteryPower = batteryPower;
+        this.battery_power = battery_power;
         this.blue = blue;
         this.clockSpeed = clockSpeed;
         this.dualSim = dualSim;
@@ -41,8 +41,8 @@ public class Device {
         this.mobileWt = mobileWt;
         this.nCores = nCores;
         this.pc = pc;
-        this.pxHeight = pxHeight;
-        this.pxWidth = pxWidth;
+        this.px_height = px_height;
+        this.px_width = px_width;
         this.ram = ram;
         this.scH = scH;
         this.scW = scW;
@@ -62,12 +62,12 @@ public class Device {
         this.id = id;
     }
 
-    public int getBatteryPower() {
-        return batteryPower;
+    public int getBattery_power() {
+        return battery_power;
     }
 
-    public void setBatteryPower(int batteryPower) {
-        this.batteryPower = batteryPower;
+    public void setBattery_power(int battery_power) {
+        this.battery_power = battery_power;
     }
 
     public int getBlue() {
@@ -150,20 +150,20 @@ public class Device {
         this.pc = pc;
     }
 
-    public int getPxHeight() {
-        return pxHeight;
+    public int getPx_height() {
+        return px_height;
     }
 
-    public void setPxHeight(int pxHeight) {
-        this.pxHeight = pxHeight;
+    public void setPx_height(int px_height) {
+        this.px_height = px_height;
     }
 
-    public int getPxWidth() {
-        return pxWidth;
+    public int getPx_width() {
+        return px_width;
     }
 
-    public void setPxWidth(int pxWidth) {
-        this.pxWidth = pxWidth;
+    public void setPx_width(int px_width) {
+        this.px_width = px_width;
     }
 
     public int getRam() {
