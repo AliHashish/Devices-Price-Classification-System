@@ -1,5 +1,8 @@
 # Spring Boot and Python Integration
 
+## API documentation link
+- [API Documentation](http://localhost:8080/swagger-ui/index.html)
+
 ## Introduction
 
 This project demonstrates how to create RESTful services using Spring Boot and consume them from a Python application. It includes:
